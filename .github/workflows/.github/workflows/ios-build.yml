@@ -1,0 +1,15 @@
+
+name: Check macOS Builder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-mac:
+    runs-on: macos-latest
+    steps:
+      - name: Check Xcode
+        run: |
+          sw_vers
+          xcodebuild -version
+          echo "Mac build environment is ready"
