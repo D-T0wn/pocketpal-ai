@@ -28,8 +28,8 @@
 		9BD11C540B6D45308B7727A2 /* Fraunces-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE113D56B0AD433688D66860 /* Fraunces-MediumItalic.ttf */; };
 		A81001102E92E09600935976 /* KeepAwakeModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = A810010E2E92E09600935976 /* KeepAwakeModule.mm */; };
 		A81001162E92FFC900935976 /* HardwareInfoModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = A81001152E92FFC900935976 /* HardwareInfoModule.mm */; };
-		A862F7232EE04CE50062E673 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A862F7222EE04CE50062E673 /* GoogleService-Info.plist */; };
-		A86CF0D42EA57BE100BFFCEE /* LlamaContextWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86CF0D32EA57BE100BFFCEE /* LlamaContextWrapper.mm */; settings = {COMPILER_FLAGS = "-I\"$(SRCROOT)/../node_modules/llama.rn/cpp\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/include\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/ggml/include\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/ggml/src\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/common\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/src\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/ggml/src/ggml-cpu\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/tools/mtmd\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/vendor\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/vendor/hash\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/codec.cpp/include\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/codec.cpp/common\" -I\"$(PODS_ROOT)/Headers/Private/Yoga\" -I\"${PODS_ROOT}/React-graphics\" -I\"${PODS_ROOT}/React-graphics/react/renderer/graphics/platform/ios\" -I\"${PODS_ROOT}/React-Fabric\" -I\"${PODS_ROOT}/React-Fabric/react/renderer/components/view/platform/cxx\" -I\"${PODS_ROOT}/React-FabricImage\" -I\"${PODS_ROOT}/ReactCommon\" -I\"${PODS_ROOT}/ReactCommon/react/nativemodule/core\" -I\"${PODS_ROOT}/React-runtimeexecutor\" -I\"${PODS_ROOT}/React-runtimeexecutor/platform/ios\" -I\"${PODS_ROOT}/React-NativeModulesApple\" -I\"${PODS_ROOT}/React-RCTFabric\" -I\"${PODS_ROOT}/React-utils\" -I\"${PODS_ROOT}/React-featureflags\" -I\"${PODS_ROOT}/React-debug\" -I\"${PODS_ROOT}/React-ImageManager\" -I\"${PODS_ROOT}/React-rendererdebug\" -I\"${PODS_ROOT}/React-renderercss\" -I\"$(PODS_ROOT)/ReactNativeDependencies/Headers\""; }; };
+	
+	    A86CF0D42EA57BE100BFFCEE /* LlamaContextWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A86CF0D32EA57BE100BFFCEE /* LlamaContextWrapper.mm */; settings = {COMPILER_FLAGS = "-I\"$(SRCROOT)/../node_modules/llama.rn/cpp\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/include\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/ggml/include\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/ggml/src\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/common\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/src\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/ggml/src/ggml-cpu\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/tools/mtmd\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/vendor\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/llama.cpp/vendor/hash\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/codec.cpp/include\" -I\"$(SRCROOT)/../node_modules/llama.rn/vendor/codec.cpp/common\" -I\"$(PODS_ROOT)/Headers/Private/Yoga\" -I\"${PODS_ROOT}/React-graphics\" -I\"${PODS_ROOT}/React-graphics/react/renderer/graphics/platform/ios\" -I\"${PODS_ROOT}/React-Fabric\" -I\"${PODS_ROOT}/React-Fabric/react/renderer/components/view/platform/cxx\" -I\"${PODS_ROOT}/React-FabricImage\" -I\"${PODS_ROOT}/ReactCommon\" -I\"${PODS_ROOT}/ReactCommon/react/nativemodule/core\" -I\"${PODS_ROOT}/React-runtimeexecutor\" -I\"${PODS_ROOT}/React-runtimeexecutor/platform/ios\" -I\"${PODS_ROOT}/React-NativeModulesApple\" -I\"${PODS_ROOT}/React-RCTFabric\" -I\"${PODS_ROOT}/React-utils\" -I\"${PODS_ROOT}/React-featureflags\" -I\"${PODS_ROOT}/React-debug\" -I\"${PODS_ROOT}/React-ImageManager\" -I\"${PODS_ROOT}/React-rendererdebug\" -I\"${PODS_ROOT}/React-renderercss\" -I\"$(PODS_ROOT)/ReactNativeDependencies/Headers\""; }; };
 		A86CF0D62EA9567800BFFCEE /* MustacheRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86CF0D52EA9567800BFFCEE /* MustacheRenderer.swift */; };
 		A8B4FFD32EA5731700CD3B4C /* LlamaInferenceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4FFCD2EA5731700CD3B4C /* LlamaInferenceEngine.swift */; };
 		A8B4FFD42EA5731700CD3B4C /* AskPalIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4FFCC2EA5731700CD3B4C /* AskPalIntent.swift */; };
@@ -261,7 +261,8 @@
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A71BFC021000000000000001 /* Copy optional Firebase configuration */,
+00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				C14F808C593148795DEDC587 /* [CP] Embed Pods Frameworks */,
 				B76F19E92D8D12BA8FEC75B9 /* [CP] Copy Pods Resources */,
 				3FF975B715F7B7DEA9B7EB00 /* [CP-User] [RNFB] Core Configuration */,
@@ -344,7 +345,7 @@
 				9AE3DCE490A24E01AA31653A /* Inter-Light.ttf in Resources */,
 				468C5914EED04BB8A4C21D62 /* Inter-Medium.ttf in Resources */,
 				76C57660BD9A47C38737D8FD /* Inter-Regular.ttf in Resources */,
-				A862F7232EE04CE50062E673 /* GoogleService-Info.plist in Resources */,
+				
 				FF002F1D6D914619BAB71A78 /* Inter-SemiBold.ttf in Resources */,
 				98A9C9EC8A4B4D7C9F59C8FE /* Inter-Thin.ttf in Resources */,
 				1A0D5411C2B6438BA6761FA8 /* Fraunces-Medium.ttf in Resources */,
@@ -372,7 +373,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+	
+		A71BFC021000000000000001 /* Copy optional Firebase configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy optional Firebase configuration";
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nCONFIG_PLIST=\"${SRCROOT}/GoogleService-Info.plist\"\nBUNDLED_PLIST=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleService-Info.plist\"\nif [ -f \"$CONFIG_PLIST\" ]; then\n  cp \"$CONFIG_PLIST\" \"$BUNDLED_PLIST\"\nelse\n  rm -f \"$BUNDLED_PLIST\"\nfi\n";
+		};	
+00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
